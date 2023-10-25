@@ -76,8 +76,6 @@ def logout():
     flash('You were logged out')
     return redirect(url_for('index'))
 
-if __name__ == "__main__":
-    app.run()
 
 @app.route('/add', methods=['POST'])
 def add_entry():
@@ -92,3 +90,4 @@ def add_entry():
     db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('index'))
+
