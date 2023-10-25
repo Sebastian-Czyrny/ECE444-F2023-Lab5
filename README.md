@@ -7,7 +7,7 @@ This repository was created by going through the following repository: https://g
 Please find the unit test I created for my group project here:
 https://github.com/ECE444-2023Fall/project-1-web-application-design-group16-fieryflamingos/blob/models_development/tests/test_db.py#L48-L110
 
-The unit test is called RegularUserTest, it tests the functionality of the regular user model and querying it from the database.
+The unit test is called TestRegularUser, it tests the functionality of the regular user model and querying it from the database.
 
 ## What are the pros and cons of TDD?
 ### PROS
